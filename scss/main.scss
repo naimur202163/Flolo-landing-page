@@ -1,0 +1,13 @@
+// importing header style
+@import "./partials/header.scss";
+
+// importing common styles
+@import "./comoon.scss";
+
+// importing Responsive
+
+@import "./responsive.scss";
+
+// all customization and importing must be before importing bootstrap.scss
+
+@import "../node_modules/bootstrap/scss/bootstrap";
